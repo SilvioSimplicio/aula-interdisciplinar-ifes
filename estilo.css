@@ -35,16 +35,6 @@ body {
     border-right: 1px solid var(--cor-logo);
 }
 
-.coluna-direita h1 {
-    margin-bottom: 25px;
-}
-
-.coluna-direita {
-    flex-grow: 4;
-
-    background-color: var(--cor-coluna-direita);
-}
-
 .coluna-esquerda ul {
     list-style: none;
     padding: 0;
@@ -74,4 +64,17 @@ body {
 
 .coluna-esquerda a iconify-icon {
     margin-right: 10px;
+}
+
+.coluna-central h1 {
+    margin-bottom: 25px;
+}
+
+.coluna-central {
+    flex-grow: 1;
+    background-color: var(--cor-coluna-direita);
+}
+
+.coluna-direita {
+    background-color: var(--cor-coluna-esquerda);
 }
